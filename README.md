@@ -1,10 +1,5 @@
 # The Wealth Migration: Predictive Modeling of "Art-Ready" Demographics in NY and FL
 
-**Author:** Megan (Sohee) Kim  
-**Program:** MS Data Analytics & Visualization — Pratt Institute  
-**Course:** Data Analysis SP-INFO-640-01  
-**Date:** May 2026
-
 ---
 
 ## Overview
