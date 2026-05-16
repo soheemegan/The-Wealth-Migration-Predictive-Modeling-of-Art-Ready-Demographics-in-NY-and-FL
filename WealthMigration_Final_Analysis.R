@@ -94,10 +94,8 @@ options(tigris_use_cache = TRUE)
 # The script reads ALL CSV files inside art_dir recursively, so any subfolder
 # organization within that directory is fine.
 
-art_dir <- "/Users/sohee/Library/CloudStorage/GoogleDrive-skim149@pratt.edu/My Drive/MS Data Analytics & Visualization (2025-2027)/2. SPRING 2026/Data Analysis 26 SP-INFO-640-01 /GitHub Documentation:Presentation:Final Product/artworks 1m above"
-
-zillow_dir <- "/Users/sohee/Library/CloudStorage/GoogleDrive-skim149@pratt.edu/My Drive/MS Data Analytics & Visualization (2025-2027)/2. SPRING 2026/Data Analysis 26 SP-INFO-640-01 /GitHub Documentation:Presentation:Final Product"
-
+art_dir    <- "data/artworks"
+zillow_dir <- "data"
 
 # ==============================================================================
 # SECTION 2: DATA ACQUISITION & CLEANING
@@ -123,7 +121,7 @@ zillow_dir <- "/Users/sohee/Library/CloudStorage/GoogleDrive-skim149@pratt.edu/M
 # This isolates the top-tier demographic most relevant to high-end art markets
 # and removes general population noise that would dilute the signal.
 
-census_api_key("f58491bcdce736a559a26c5d08c069d8b03fe9f3")
+census_api_key("insert your api key here")
 
 # ACS variable codes from the Census Bureau B-table series
 variables <- c(
